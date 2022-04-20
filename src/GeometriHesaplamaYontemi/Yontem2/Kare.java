@@ -2,8 +2,7 @@ package GeometriHesaplamaYontemi.Yontem2;
 
 import java.util.Scanner;
 
-import static GeometriHesaplamaYontemi.Yontem2.sekil.*;
-
+import static GeometrikHesaplama.src.packageSekil.sekil.*;
 
 public class Kare {
 

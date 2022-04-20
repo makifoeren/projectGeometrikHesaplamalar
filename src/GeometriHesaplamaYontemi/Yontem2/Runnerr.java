@@ -2,14 +2,10 @@ package GeometriHesaplamaYontemi.Yontem2;
 
 import java.util.Scanner;
 
-import static GeometriHesaplamaYontemi.Yontem2.Cember.cemberAlanHesapla;
-import static GeometriHesaplamaYontemi.Yontem2.Cember.cemberCevreHesapla;
-import static GeometriHesaplamaYontemi.Yontem2.Dikdortgen.dikdortgenAlanHesapla;
-import static GeometriHesaplamaYontemi.Yontem2.Dikdortgen.dikdortgenCevreHesapla;
-import static GeometriHesaplamaYontemi.Yontem2.Kare.kareAlanHesapla;
-import static GeometriHesaplamaYontemi.Yontem2.Kare.kareCevreHesapla;
-import static GeometriHesaplamaYontemi.Yontem2.sekil.dikdortgenMesaj;
-import static GeometriHesaplamaYontemi.Yontem2.sekil.kareMesaj;
+import static GeometrikHesaplama.src.packageSekil.Cember.*;
+import static GeometrikHesaplama.src.packageSekil.Dikdortgen.*;
+import static GeometrikHesaplama.src.packageSekil.Kare.*;
+import static GeometrikHesaplama.src.packageSekil.sekil.sekilMesaj;
 
 public class Runnerr {
 
@@ -26,7 +22,7 @@ public class Runnerr {
         sekil mesaj = new sekil();
 
         System.out.println("Geometrik islemlerden hangisini yapmak istersiniz\n 1 Kare " +
-                " \n 2 Dikdortgen\n 3 Cember\n 0 Cikis");
+                " \n 2 Dikdörtgen\n 3 Cember\n 0 Cikis");
         String secim = scan.nextLine();
 
 
