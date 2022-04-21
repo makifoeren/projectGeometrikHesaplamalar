@@ -11,7 +11,7 @@ public class Kare extends Dikdortgen{
 
     @Override
     public String toString() {
-        return "geo.Kare; " +
+        return "Kare; " +
                 "\nKenar=" + kisaKenar +
                 "\nAlan=" +alanHesaplama() +
                 "\ncevres=" + cevreHesaplama() +

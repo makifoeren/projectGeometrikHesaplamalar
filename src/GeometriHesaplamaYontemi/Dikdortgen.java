@@ -9,10 +9,17 @@ public class Dikdortgen extends Sekil{
         super(uzunKenar, kisa);
     }
 
+    public Dikdortgen(double kisa){
+
+    }
+    public double alanHesaplama() {
+        return (kisaKenar* kisaKenar);
+
+    }
 
     @Override
     public String toString() {
-        return "geo.Dikdortgen; " +
+        return "Dikdortgen; " +
                 "\nuzunKenar= " + uzunKenar +
                 "\nkisaKenar= " + kisaKenar +
                 "\nAlani= "+alanHesaplama()+

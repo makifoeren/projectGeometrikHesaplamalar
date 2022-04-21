@@ -13,6 +13,3 @@ package GeometriHesaplamaYontemi;
     */
 
 
-public class Task {
-
-}
