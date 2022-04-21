@@ -12,10 +12,16 @@ public class Dikdortgen extends Sekil{
     public Dikdortgen(double kisa){
 
     }
+    public double cevreHesaplama(){
+        return super.cevreHesaplama();
+
+    }
+
     public double alanHesaplama() {
         return (kisaKenar* kisaKenar);
 
     }
+
 
     @Override
     public String toString() {

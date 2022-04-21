@@ -96,7 +96,7 @@ public class GirisPaneli {
                 double yariCap = scan.nextDouble();
 
 
-                Cemberr cember =new Cemberr(yariCap);
+                Cember cember =new Cember(yariCap);
                 cember.cemberCevreHesaplama();
                 cember.cemberAlanHesaplama();
                 //System.out.println(cember);
