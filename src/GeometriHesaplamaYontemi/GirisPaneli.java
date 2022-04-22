@@ -129,6 +129,7 @@ public class GirisPaneli {
 
     }
     public static void cikis() {
+
         System.out.println("Hoscakalin iyi calismalar.....");
     }
 

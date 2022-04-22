@@ -18,7 +18,8 @@ public class Dikdortgen extends Sekil{
     }
 
     public double alanHesaplama() {
-        return (kisaKenar* kisaKenar);
+        return super.alanHesaplama();
+
 
     }
 
