@@ -39,8 +39,8 @@ public class GirisPaneli {
 
         switch (islem) {
             case 1:
-                System.out.println("Lütfen dikdörtgenin uzun ve kisa kenarini giriniz");
 
+                System.out.println("Lütfen dikdörtgenin uzun ve kisa kenarini giriniz");
                 double uzunKenar = scan.nextDouble();
                 double kisaKenar = scan.nextDouble();
 
@@ -54,6 +54,7 @@ public class GirisPaneli {
 
                 if (ch == 'E') {
                     geometrikSekilHesaplama();
+                    break;
                 } else if (ch == 'H') {
                     cikis();
                     break;
@@ -65,8 +66,8 @@ public class GirisPaneli {
 
 
             case 2:
-                System.out.println("Lütfen karenin uzun ve kisa kenarini giriniz.");
 
+                System.out.println("Lütfen karenin uzun ve kisa kenarini giriniz.");
                 double uzunKenarK = scan.nextDouble();
                 double kisaKenarK = scan.nextDouble();
 
@@ -80,6 +81,7 @@ public class GirisPaneli {
 
                 if (chk == 'E') {
                     geometrikSekilHesaplama();
+                    break;
                 } else if (chk == 'H') {
                     cikis();
                     break;
@@ -91,12 +93,11 @@ public class GirisPaneli {
 
 
             case 3:
-                System.out.println("Lütfen cemberin yaricapini giriniz");
 
+                System.out.println("Lütfen cemberin yaricapini giriniz");
                 double yariCap = scan.nextDouble();
 
-
-                Cember cember =new Cember(yariCap);
+                Cember cember = new Cember(yariCap);
                 cember.cemberCevreHesaplama();
                 cember.cemberAlanHesaplama();
                 //System.out.println(cember);
@@ -106,6 +107,7 @@ public class GirisPaneli {
 
                 if (chc == 'E') {
                     geometrikSekilHesaplama();
+                    break;
                 } else if (chc == 'H') {
                     cikis();
                     break;
@@ -128,6 +130,7 @@ public class GirisPaneli {
 
 
     }
+
     public static void cikis() {
 
         System.out.println("Hoscakalin iyi calismalar.....");
