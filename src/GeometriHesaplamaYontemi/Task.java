@@ -15,7 +15,11 @@ package GeometriHesaplamaYontemi;
 
 
 
-
+/*
+        Kendi koşul veya kurallarımızı tanımlayabilir ve throw anahtar sözcüğünü kullanarak açıkça bir istisna oluşturabiliriz.
+         Örneğin, sayıyı 5'e veya başka herhangi bir sayıya böldüğümüzde ArithmeticException'ı atabiliriz,
+          yapmamız gereken sadece koşulu ayarlamak ve throw anahtar sözcüğünü kullanarak herhangi bir
+         istisna atmak. Throw anahtar sözcüğü, özel istisnalar oluşturmak için de kullanılabilir,*/
 
 
 
